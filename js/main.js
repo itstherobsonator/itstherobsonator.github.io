@@ -13,7 +13,7 @@
 	$(".testimonials").owlCarousel({
 		margin: 30,
 		autoPlay: true,
-		autoPlay : 5000,
+		autoplayTimeout : 5000,
 		responsive: {
 			0: {
 				items: 1
