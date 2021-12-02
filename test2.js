@@ -131,7 +131,7 @@ while (game_id.length!= 5){
    game_id=window.prompt("What is the game id that you are looking to extract data from?",'');
 }
 
- currentUrlTemp="http://cluster.leaguestat.com/feed/index.php?feed=gc&key=2976319eb44abe94&client_code=ohl&game_id="+game_id+"&lang_code=en&fmt=json&tab=gamesummary";
+ currentUrlTemp="https://cluster.leaguestat.com/feed/index.php?feed=gc&key=2976319eb44abe94&client_code=ohl&game_id="+game_id+"&lang_code=en&fmt=json&tab=gamesummary";
 
  $.ajax({
   type:     "GET",
